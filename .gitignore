@@ -21,6 +21,7 @@
 *.zip
 *.komodoproject
 /cache
+/uploaded
 
 # Logs and databases #
 ######################
