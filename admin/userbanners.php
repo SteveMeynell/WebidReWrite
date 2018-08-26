@@ -154,7 +154,7 @@ while ($row = $db->fetch()) {
 $CATEGORIES = array();
 $query = "SELECT * FROM " . $DBPrefix . "bannerscategories WHERE banner = :banner_id";
 $params = array();
-$params[] = array(':banner_id', $banner, 'int');
+$params[] = array(':banner_id', $id, 'int');
 $db->query($query, $params);
 
 if ($db->numrows() > 0) {
