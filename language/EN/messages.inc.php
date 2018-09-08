@@ -1032,6 +1032,7 @@ $MSG['25_0002'] = 'SELLER';
 $MSG['25_0004'] = 'User name';
 $MSG['25_0005'] = 'User Registration Fields';
 $MSG['25_0006'] = 'Final bid';
+$MSG['25_0007'] = 'Currency Rates';
 $MSG['25_0008'] = 'Preferences';
 $MSG['25_0009'] = 'Interface';
 $MSG['25_0010'] = 'Users';
@@ -1249,3 +1250,9 @@ $MSG['count_minute'] = " minute";
 $MSG['count_seconds'] = " seconds";
 $MSG['count_second'] = " second";
 
+// Currency Rates
+$MSG['currencyCode'] = "Currency Code";
+$MSG['currencyRate'] = "Current Rate";
+$MSG['currency_rates'] = "Currency Rates";
+$MSG['currency_rates_updated'] = "Currency Rates Updated Successfully";
+$MSG['currency_rates_not_updated'] = "Currency Rates can only be updated on weekdays after 16:00 CET";

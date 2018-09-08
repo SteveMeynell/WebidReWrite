@@ -177,7 +177,7 @@ if ($system->SETTINGS['version_check'] !== "") {
     $realversion = $MSG['unknown'];
   }
 
-  if (version_compare($system->SETTINGS['version'], $realversion, "<")) {
+  if (version_compare($system->SETTINGS['version'], $realversion, ">")) {
     $update_available = true;
     $realversion = $MSG['outdated_version'];
   }

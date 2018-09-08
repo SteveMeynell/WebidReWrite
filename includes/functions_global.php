@@ -502,3 +502,22 @@ function build_url($string)
     $slug = strtolower($slug);
     return $slug;
 }
+/*
+//FIX FOR FOPEN ON SOME SERVER HOSTS THAT DISABLE FOR SECURITY REASONS
+
+function load_file_from_url($url) {
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curl, CURLOPT_REFERER, $system->SETTINGS['siteurl']);
+    $str = curl_exec($curl);
+    curl_close($curl);
+    return $str;
+}
+
+
+
+function load_file($url) {
+    return load_file_from_url($url);
+}
+*/

@@ -6,6 +6,7 @@
 							<li><a href="{SITEURL}admin/maintenance.php">{L_maintenance_settings}</a></li>
 							<li><a href="{SITEURL}admin/wordsfilter.php">{L_5068}</a></li>
 							<li><a href="{SITEURL}admin/errorlog.php">{L_891}</a></li>
+							<li><a href="{SITEURL}admin/uploaddata.php">{L_upload_data}</a></li>
 						</ul>
 					</div>
 				</div>

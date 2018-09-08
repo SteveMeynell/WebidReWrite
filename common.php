@@ -35,6 +35,8 @@ define('PACKAGE_PATH', MAIN_PATH . 'includes/packages/');
 define('UPLOAD_FOLDER', 'uploaded/');
 define('UPLOAD_PATH', MAIN_PATH . UPLOAD_FOLDER);
 define('IMAGE_CACHE_PATH', UPLOAD_PATH . 'cache/');
+define('MODEL_PATH' , MAIN_PATH . 'model/');
+define('ADMIN_UPLOAD_PATH', MAIN_PATH . 'uploaded/');
 
 include INCLUDE_PATH . 'errors.inc.php'; //error handler functions
 

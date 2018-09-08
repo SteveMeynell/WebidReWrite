@@ -33,6 +33,7 @@
 					<div class="rounded-bottom">
 						<ul class="menu">
 							<li><a href="{SITEURL}admin/currency.php">{L_currency_settings}</a></li>
+							<li><a href="{SITEURL}admin/currencyrates.php">{L_currency_rates}</a></li>
 							<li><a href="{SITEURL}admin/time.php">{L_time_settings}</a></li>
 							<li><a href="{SITEURL}admin/buyitnow.php">{L_2__0025}</a></li>
 							<li><a href="{SITEURL}admin/defaultcountry.php">{L_default_country}</a></li>

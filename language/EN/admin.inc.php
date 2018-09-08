@@ -573,6 +573,8 @@ $MSG['search_auctions'] = "Search Auctions";
 
 // settings.php
 $MSG['general_settings'] = "General Settings"; // Also sidebar-settings.tpl
+$MSG['site_settings'] = "Site Settings";
+$MSG['company_settings'] = "Company Settings";
 $MSG['general_settings_updated'] = "General settings updated";
 $MSG['site_name'] = "Site name";
 $MSG['site_name_explain'] = "Your site's name will appear in the e-mail messages WeBid sends to users";
@@ -597,6 +599,29 @@ $MSG['enable_ssl'] = "Enable SSL support?";
 $MSG['enable_ssl_explain'] = "<p>If you have SSL support on the server where you are running WeBid, you may want to give your customers a safer environment to operate.</p>Once The SSL Support is activated, your users will operate under secure HTTPS transactions when they log in or register.";
 $MSG['ssl_url'] = 'Shared SSL URL';
 $MSG['ssl_url_explain'] = 'If you\'re using shared SSL enter the URL here';
+$MSG['upload_data'] = 'Upload Data Files';
+
+// Company Information
+$MSG['company_settings_updated'] = "Company Information Updated Successfully";
+$MSG['company_name'] = "Company Name";
+$MSG['company_name_explain'] = "By what name does your company go by?";
+$MSG['company_location_settings'] = "Company Physical Location";
+$MSG['company_address'] = "Street Address";
+$MSG['company_address_explain'] = "Physical Street Address";
+$MSG['company_city'] = "City";
+$MSG['company_city_explain'] = "What City are you located in?";
+$MSG['company_province'] = "Province/State/Region";
+$MSG['company_province_explain'] = "What Province, State or Region are you located in?";
+$MSG['company_country'] = "Country";
+$MSG['company_country_explain'] = "What Country are you located in?";
+$MSG['company_postal'] = "Postal Code/Zip Code";
+$MSG['company_postal_explain'] = "What is your Postal Code or Zip Code?";
+$MSG['company_phone'] = "Phone Number";
+$MSG['company_phone_explain'] = "What is your phone number?";
+$MSG['company_social_settings'] = "Social Media";
+$MSG['company_facebook'] = "Facebook Page";
+$MSG['company_twitter'] = "Twitter Account";
+$MSG['company_other'] = "Other";
 
 // spam.php
 $MSG['spam_settings'] = 'Spam settings'; // Also sidebar-settings.tpl
